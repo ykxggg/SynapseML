@@ -111,8 +111,8 @@ jobs:
       env:
         ADO-FEED-TOKEN: $(ado-feed-token)
         STORAGE-KEY: $(storage-key)
-        SYNAPSEML_ENABLE_PUBLISH: true
         PUBLISH_TO_FEED: true
+        SYNAPSEML_ENABLE_PUBLISH: true
 
 - job: E2E
   timeoutInMinutes: 120
